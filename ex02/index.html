@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificar Permissões e Previsão de Rodagem</title>
+  </head>
+  <body>
+    <h1>Verificar Permissões e Previsão de Rodagem</h1>
+
+    <h2>Verificar Permissões</h2>
+    <label for="idade">Digite sua idade:</label>
+    <input type="number" id="idade" />
+    <button onclick="verificarPermissoes()">Verificar Permissões</button>
+
+    <h2>Previsão de Rodagem</h2>
+    <label for="litros">Quantidade de litros no tanque:</label>
+    <input type="number" id="litros" step="0.1" />
+    <label for="kmPorLitro">Quilometragem média por litro:</label>
+    <input type="number" id="kmPorLitro" step="0.1" />
+    <button onclick="previsaoRodagem()">Previsão de Rodagem</button>
+
+    <script src="verificarPermissoes.js"></script>
+    <script src="previsaoRodagem.js"></script>
+  </body>
+</html>
